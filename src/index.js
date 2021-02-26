@@ -8,7 +8,7 @@ import './App.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Badge />
+    <Badge Nombre="Mauricio" Apellido="Lopera" Cargo="CEO Helpex" SocialM="MauricioLopera1" Avatar="https://www.gravatar.com/avatar?d=identicon"/>
   </React.StrictMode>,
   document.getElementById('root')
 );

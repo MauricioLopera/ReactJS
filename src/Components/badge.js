@@ -11,12 +11,12 @@ class badge extends React.Component{
                     <img src={logoHeader} alt="header"/>
                 </div>
                 <div className="badge_section-name">
-                    <img src="https://www.gravatar.com/avatar?d=identicon" alt="avatar" className="badge_avatar"/>
-                    <h1>Mauricio <br/> Lopera</h1>
+                    <img src={this.props.Avatar} alt="avatar" className="badge_avatar"/>
+                    <h1>{this.props.Nombre} <br/> {this.props.Apellido}</h1>
                 </div>
                 <div className="badge_section-info">
-                    <h3>CEO Helpex</h3>
-                    <div>@MauricioLopera1</div>
+                    <h3>{this.props.Cargo}</h3>
+                    <div>@{this.props.SocialM}</div>
                 </div>
                 <div className="badge_footer">
                     #Helpex
